@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		847563722C99C3A60080EDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847563712C99C3A60080EDDE /* AppDelegate.swift */; };
-		847563742C99C3A60080EDDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847563732C99C3A60080EDDE /* SceneDelegate.swift */; };
-		847563762C99C3A60080EDDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847563752C99C3A60080EDDE /* ViewController.swift */; };
-		847563792C99C3A60080EDDE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 847563782C99C3A60080EDDE /* Base */; };
+		847563762C99C3A60080EDDE /* CircleProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847563752C99C3A60080EDDE /* CircleProgressBarViewController.swift */; };
 		8475637B2C99C3A80080EDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475637A2C99C3A80080EDDE /* Assets.xcassets */; };
 		8475637E2C99C3A80080EDDE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8475637D2C99C3A80080EDDE /* Base */; };
+		847563862C99C8270080EDDE /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 847563852C99C8270080EDDE /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8475636E2C99C3A60080EDDE /* CircleProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847563712C99C3A60080EDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847563732C99C3A60080EDDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847563752C99C3A60080EDDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847563782C99C3A60080EDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847563752C99C3A60080EDDE /* CircleProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarViewController.swift; sourceTree = "<group>"; };
 		8475637A2C99C3A80080EDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8475637D2C99C3A80080EDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8475637F2C99C3A80080EDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847563852C99C8270080EDDE /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +38,7 @@
 		847563652C99C3A60080EDDE = {
 			isa = PBXGroup;
 			children = (
+				847563852C99C8270080EDDE /* readme.md */,
 				847563702C99C3A60080EDDE /* CircleProgressBar */,
 				8475636F2C99C3A60080EDDE /* Products */,
 			);
@@ -57,9 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				847563712C99C3A60080EDDE /* AppDelegate.swift */,
-				847563732C99C3A60080EDDE /* SceneDelegate.swift */,
-				847563752C99C3A60080EDDE /* ViewController.swift */,
-				847563772C99C3A60080EDDE /* Main.storyboard */,
+				847563752C99C3A60080EDDE /* CircleProgressBarViewController.swift */,
 				8475637A2C99C3A80080EDDE /* Assets.xcassets */,
 				8475637C2C99C3A80080EDDE /* LaunchScreen.storyboard */,
 				8475637F2C99C3A80080EDDE /* Info.plist */,
@@ -126,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8475637B2C99C3A80080EDDE /* Assets.xcassets in Resources */,
+				847563862C99C8270080EDDE /* readme.md in Resources */,
 				8475637E2C99C3A80080EDDE /* Base in Resources */,
-				847563792C99C3A60080EDDE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +135,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847563762C99C3A60080EDDE /* ViewController.swift in Sources */,
+				847563762C99C3A60080EDDE /* CircleProgressBarViewController.swift in Sources */,
 				847563722C99C3A60080EDDE /* AppDelegate.swift in Sources */,
-				847563742C99C3A60080EDDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		847563772C99C3A60080EDDE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847563782C99C3A60080EDDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8475637C2C99C3A80080EDDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +285,8 @@
 				INFOPLIST_FILE = CircleProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +294,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.azonaz.CircleProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,9 +316,8 @@
 				INFOPLIST_FILE = CircleProgressBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,6 +325,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.azonaz.CircleProgressBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

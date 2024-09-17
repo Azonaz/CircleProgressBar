@@ -4,6 +4,7 @@ Creates a circular progress bar using CAShapeLayer in UIKit. The progress bar an
 
 # Screencast
 
-https://github.com/user-attachments/assets/1e7e3012-520d-456a-b382-d58d87b2fba9
+![circleLoader-o](https://github.com/user-attachments/assets/3e4f11eb-c46c-4528-b876-0401b9b9befa)
+
 
 Stack: UIKit, CAShapeLayer.

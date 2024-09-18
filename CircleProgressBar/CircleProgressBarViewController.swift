@@ -26,11 +26,21 @@ final class CircleProgressBarViewController: UIViewController {
     }
     
     private func createRoundedProgressBar() {
+        // Loader is moving counterclockwise
         let circularPath = UIBezierPath(arcCenter: circleCenter,
                                         radius: circleRadius,
                                         startAngle: 3 * CGFloat.pi / 2,
                                         endAngle: -CGFloat.pi / 2,
                                         clockwise: false)
+        
+        // Loader can move in a clockwise direction
+        
+        //        let circularPath = UIBezierPath(arcCenter: circleCenter,
+        //                                            radius: circleRadius,
+        //                                            startAngle: -CGFloat.pi / 2,
+        //                                            endAngle: 3 * CGFloat.pi / 2,
+        //                                            clockwise: true)
+        
         orangeLoader.path = circularPath.cgPath
         orangeLoader.fillColor = UIColor.clear.cgColor
         orangeLoader.strokeColor = UIColor.orange.cgColor
